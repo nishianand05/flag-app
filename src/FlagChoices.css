@@ -1,7 +1,14 @@
 .flag-form {
-  display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
-  justify-content: space-around;
-  font-size: 1.3em;
+	display: flex;
+	margin: 25px auto;
+	justify-content: space-evenly;
+	font-size: 1.3em;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media(max-width: 1000px){
+	.flag-form{
+		flex-direction: column;
+	}
 }

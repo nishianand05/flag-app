@@ -1,6 +1,8 @@
 .flag-img {
-  max-height: 65vh;
-  max-width: 90%;
-  border: 1px solid black;
-  margin: 15px;
+	max-height: 45vh;
+	max-width: 50%;
+	border: 1px solid black;
+	margin: 25px;
+	padding: 0;
+	user-select: none;
 }

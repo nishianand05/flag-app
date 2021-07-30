@@ -10,6 +10,7 @@ const QuestionStates = {
 };
 
 class FlagQuestion extends Component {
+	
 	static defaultProps = {
 		options: []
 	}
@@ -36,6 +37,7 @@ class FlagQuestion extends Component {
 	}
 
 	render(){
+		
 		const {flag, questionState, options, answerText, onNext} = this.props;
 		
 		const {userChoice} = this.state;
